@@ -1,0 +1,113 @@
+/* Estilos CSS para el formulario */
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #cdd8e0;
+    color: #282829;
+    margin: auto;
+    padding: 0;
+}
+
+header {
+    background-color: #4c82af;
+    color: #fff;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: #58a4c7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #58a4c7;
+}
+
+span {
+    color: red;
+}
+
+/* Estilos CSS para las tablas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #58a4c7;
+    background-color: #58a4c7;
+
+
+}
+
+td {
+    color: #fff;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.tabla-container {
+    max-width: 80%;
+}
+.listado-container {
+    max-width: 70%;
+}
+.boton-container {
+    margin-block: 30px;
+}
+a{
+    text-decoration: none;
+}
+.listado-servicios a {
+    color: #3e4a8e;
+    font-size: 30px;
+}
+
+.listado-servicios li::marker {
+    content: 🐾;
+}

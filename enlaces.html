@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces y formularios</title>
+</head>
+<body>
+    <h1 id="titulo-principal">Aprendiendo enlaces y formularios HTML</h1>
+    <h2 id="enlaces">Enlaces</h2>
+    <p>Para crear cualquier enlace utilizamos la etiqueta a</p>
+    <h3>Enlaces externos</h3>
+    <p>Los enlaces externos dirigen a otros sitios web que no pertenecen al mio</p>
+    <h4>Ejemplos</h4>
+    <!-- href es el atributo que sirve para poner el enlace que quiero dejar en mi sitio web -->
+    <a href="https://aulasvirtuales.udistrital.edu.co/course/view.php?id=11467">Click para ingresar al curso de Backend</a>
+    <br>
+    <!-- target="_blank" es el atributo que sirve para abrir el enlace en una nueva pestaña del navegador -->
+    <a href="https://www.udistrital.edu.co/inicio" target="_blank">Click para ir a la UD</a>
+    <br>
+    <h5>Temario del curso hasta el momento</h5>
+    <ol>
+        <li>
+            <!-- Si quiero enlazar documentos HTML solo debo poner el nombre del HTML -->
+            <a href="holaMundo.html">
+                holaMundo
+            </a>
+        </li>
+        <li>
+            <a href="practicaListas.html">
+                practicaListas
+            </a>
+        </li>
+    </ol>
+    <h3>Enlaces internos</h3>
+        <a href="#titulo-principal">
+            <img src="img/ir-atras.png">
+        <br>
+        <a href="holaMundo.html#multimedia">Ir al contenido multimedia</a>
+        <br>
+    <h3 id="Peliculas">Mis Peliculas favoritas</h3>
+        <a href="Peliculas.html#Peliculas">Ir al contenido multimedia</a>
+        <br>
+            </a>
+
+    <h2>Formularios en html</h2>
+    <h3>Inscripciones atenea</h3>
+    <form>
+        <label for="">Nombres</label>
+        <input type="text" placeholder="Ingresa tu nombre :)"><br>
+        <label for="">Tipo de documento</label>
+        <select>
+            <option value="RC">Registro civil</option>
+            <option value="TI">Tarjeta de identidad</option>
+            <option value="CC">Cedula de ciudadania</option>
+        </select><br>
+        <label for="    ">Cedula</label>
+        <input type="number" required><br>
+        <label for="">Razones para ingresar</label><br>
+        <textarea cols="30" rows="10" placeholder="Ingrese las razones para dar el curso"></textarea><br>
+        <input type="checkbox">
+        <label for="">Acepta los terminos y condiciones</label><br>
+        <input type="submit" value="Inscribirme">
+    </form>
+<br>
+<br>
+<h2>Ejercicio Fomulario de inicio de sesión / Registro</h2>
+
+<br>
+      
+    <a href="enlaces.html#Inicio de Sesión"> Iniciar Sesión </a>  
+    <br> 
+    <br>
+    <a href="enlaces.html#Registro"> Registrarse </a> 
+
+
+    <h2 id="Inicio de Sesión">Inicio de Sesión</h2>
+        <form>
+            <label for="">Usuario</label>
+            <input type="email" placeholder="Ingresa tu usuario" required ><br>
+            <br>
+            <label for="">Contraseña</label>
+            <input type="texto" placeholder="Ingresa tu usuario" required ><br> 
+             <br> 
+             <input type="checkbox">
+            <label for="">Acepta los terminos y condiciones</label><br>
+            
+            <br>
+            <input type="submit" value="Iniciar Sesión">
+            
+        </form>
+    <br>
+    <br>
+    <h2 id="Registro">Registrarse</h2>
+        <h3>¡Bienvenido!</h3>
+        <p>Por favor registre sus datos correctamente</p>
+    
+        <form>
+            <label for="">Nombres</label>
+            <input type="text" placeholder="Ingresa tus nombres :)" required><br>
+            <br>
+            <label for="">Apellidos</label>
+            <input type="text" placeholder="Ingresa tus apellidos :)" required><br>
+            <br>
+            <label for="">Tipo de documento</label>
+            <select>
+                <option value="CC">Cedula de Ciudadania</option>
+                <option value="TI">Tarjeta de identidad</option>
+                <option value="RC">Registro Civil</option>
+                <option value="PE">Permiso Especial de Permanencia</option>
+                <option value="P">Pasaporte</option>
+                <option value="CE">Cedula de Extranjeria</option>
+                
+            </select><br>
+            <br>
+            <label for="   ">Número de documento</label>
+            <input type="number" required><br>
+            <br>
+            <label for="">Correo lectronico</label required>
+            <input type="email" placeholder="Ingresa tu usuario" required ><br>
+            <br>
+            <label for="">Dirección</label>
+            <input type="text" placeholder="Ingresa tu dirección :)" required><br>
+            <br>
+            
+            <input type="checkbox">
+            <label for="">Acepta los terminos y condiciones</label><br>
+            <br>
+            <input type="submit" value="Registrarme">
+        </form>
+    
+</body>
+</html>
